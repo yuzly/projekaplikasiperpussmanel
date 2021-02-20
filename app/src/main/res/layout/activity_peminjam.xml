@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".peminjam.PeminjamPinjam"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tl_peminjam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Dashboard Peminjam"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        >
+        <Button
+            android:id="@+id/btn_dashboard"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="5pt"
+            android:text="@string/title_dashboard"
+            android:drawableLeft="@drawable/ic_dashboard_black_24dp"
+
+            />
+        <Button
+            android:id="@+id/btn_pinjamBuku"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/title_pinjam_buku"
+            android:layout_weight="1"
+            android:textSize="5pt"
+            android:enabled="false"
+            android:drawableLeft="@drawable/ic_baseline_library_books_24"
+            />
+        <Button
+            android:id="@+id/btn_pinjamRiwayat"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/title_pinjam_riwayat"
+            android:textSize="5pt"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_baseline_query_builder_24"
+            />
+        <ImageButton
+            android:id="@+id/ibtn_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_exit_to_app_24"
+            />
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DFDFDF"/>
+    <ListView
+        android:id="@+id/lv_buku"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>

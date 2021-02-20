@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">perpustakaan smanel</string>
+    <string name="title_activity_dashboard">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_dashboard_peminjam">MainActivity</string>
+    <string name="title_pinjam_buku">Pinjam</string>
+    <string name="title_pinjam_riwayat">Riwayat</string>
+</resources>
